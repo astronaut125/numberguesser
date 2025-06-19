@@ -2,7 +2,7 @@
 
 import random
 
-print("Welcome to ur doom >:)")
+print("Welcome to ur doom >:), my name is Evilius Evil the Evil")
 print("You have 7 tries or else")
 
 low = int(input("Enter the lowest possible number for ur doom :) "))
@@ -19,13 +19,13 @@ currentguesses = 0
 
 while currentguesses < maxguesses: 
     currentguesses+=1
-    guess=int(input("Decision time mwahahaha im evil "))
+    guess=int(input("Decision time mwahahaha im so evil lol "))
     
     if guess == num:
         print("*evil computer dies*")
         break
     elif currentguesses >= maxguesses and guess != num:
-        print(f"HA you fool the real answer was {num} you will now explode or ummmm I will eat you? idk yet just get in the basement")
+        print(f"HA you fool the real answer was {num} you will now explode or ummmm I will eat you? idk yet just get in the basement :)")
     elif guess > num:
         print("try lower or you'll live in my basement that computers may or may not have not sure yet")
     elif guess < num:
